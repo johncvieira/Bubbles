@@ -1,0 +1,40 @@
+{
+    "name": "Player Input Actions",
+    "maps": [
+        {
+            "name": "Controller",
+            "id": "521d2cc3-6863-4c80-bb17-1d7fa66a717b",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "1922b498-5a2f-410f-a379-bbc1842e90b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "44cc6d13-9aea-46a8-a501-d895b347fd31",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Controller",
+            "bindingGroup": "Controller",
+            "devices": []
+        }
+    ]
+}
