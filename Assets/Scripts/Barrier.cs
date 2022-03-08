@@ -25,7 +25,7 @@ public class Barrier : MonoBehaviour
         GameObject topBarrier = Instantiate(barrierPrefab, new Vector3(topPosition.x, topPosition.y + 0.5f, 0), Quaternion.identity);
         GameObject bottomBarrier = Instantiate(barrierPrefab, new Vector3(bottomPosition.x, bottomPosition.y - 0.5f, 0), Quaternion.identity);
         GameObject leftBarrier = Instantiate(barrierPrefab, new Vector3(leftPosition.x - 0.5f, leftPosition.y, 0), Quaternion.identity);
-        GameObject rightBarrier = Instantiate(barrierPrefab, new Vector3(rightPosition.x + 0.5f, rightPosition.y + 0.5f, 0), Quaternion.identity);
+        GameObject rightBarrier = Instantiate(barrierPrefab, new Vector3(rightPosition.x + 0.5f, rightPosition.y, 0), Quaternion.identity);
         float screenWidth = leftPosition.x - rightPosition.x;
         float screenHeight = topPosition.y - bottomPosition.y;
         topBarrier.transform.localScale = new Vector3(screenWidth, 1, 1);
